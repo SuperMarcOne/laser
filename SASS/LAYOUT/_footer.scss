@@ -1,0 +1,26 @@
+@import "../UTILITIES/variables";
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+
+    /* Animaciones */
+    animation-name: cambio_fondo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 7s;
+}
+
+@keyframes cambio_fondo {
+    0%{
+        background-color: $fondo;
+    }
+    35%{
+        background-color: indianred;
+    }
+    70%{background-color:red;
+    }
+    100%{background-color: $fondo;}
+}

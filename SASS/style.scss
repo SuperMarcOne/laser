@@ -1,0 +1,17 @@
+/*BASE*/
+@import "../SASS/BASE/reset";
+
+/*LAYOUT*/
+@import "../SASS/LAYOUT/header";
+@import "../SASS/LAYOUT/presentation";
+@import "../SASS/LAYOUT/portada";
+@import "../SASS/LAYOUT/description";
+@import "../SASS/LAYOUT/footer";
+
+/*COMPONENT*/
+@import "../SASS/COMPONENTS/cards";
+
+/*UTILITIES*/
+@import "../SASS/UTILITIES/variables";
+@import "../SASS/UTILITIES/extended";
+@import "../SASS/UTILITIES/mixes";

@@ -1,0 +1,29 @@
+.imagen-1 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.imagen-1 img {
+    width: 62.5rem;
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen-compra-1 {
+    border-radius: 1rem;
+    width: 62.5rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.imagen-compra-2 {
+    border-radius: 1rem;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}

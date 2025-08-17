@@ -1,0 +1,34 @@
+main {
+    .portada {
+        height: 20rem;
+        width: 15rem;
+        margin: 2rem;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
+    .portada-libro {
+        height: 20rem;
+        width: 15rem;
+        margin: 2rem;
+        border-radius: 1rem;
+    }
+    .compra {  
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    }
+}
+
+/* transiciones y transformaciones */
+
+.portada:hover {
+    transition: 2s;
+    transform: scale(1,1.1);
+    cursor: pointer;
+}
+
+.portada-libro:hover {
+    transition: 2s;
+    transform: scale(1,1.1);
+    cursor: pointer;
+}
